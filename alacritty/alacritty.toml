@@ -1,0 +1,9 @@
+[font]
+size = 13.0
+
+[font.normal]
+family = "VictorMonoNerdFontMono"
+style = "Medium"
+
+[terminal]
+shell = { program = "/bin/bash" }
