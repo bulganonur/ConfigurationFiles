@@ -1,0 +1,123 @@
+{
+    // Terminal
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontFamily": "Consolas",
+    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    
+    // Editor Fonts
+    "editor.fontFamily": "Victor Mono Medium",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": false,
+    "editor.fontVariations": false,
+    
+    // Editor Scrollbar
+    "editor.scrollbar.verticalScrollbarSize": 11,
+    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight": true,
+    "editor.minimap.enabled": false,
+    
+    // Editor Misc
+    "editor.semanticHighlighting.enabled": "configuredByTheme",
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.lineNumbers": "relative",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorWidth": 3,
+    "editor.inlayHints.enabled": "off",
+    "editor.rulers": [
+        120
+    ],
+    
+    // Window
+    "window.zoomLevel": 1,
+    "window.autoDetectHighContrast": false,
+    "window.menuBarVisibility": "compact",
+    "window.customTitleBarVisibility": "windowed",
+    
+    // Search
+    "search.actionsPosition": "auto",
+    "search.showLineNumbers": true,
+    "search.smartCase": true,
+    "search.mode": "reuseEditor",
+
+    // Workbench
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.colorTheme": "Gruvbox Light Medium",
+    
+    // CMake
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.options.advanced": {
+        "build": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        },
+        "launch": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        },
+        "debug": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        }
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "cmake.generator": "Ninja",
+    "cmake.configureOnOpen": false,
+    "cmake.pinnedCommands": [
+        "cmake.build",
+        "cmake.clean",
+        "cmake.cleanRebuild",
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.automaticReconfigure": false,
+    "cmake.configureOnEdit": false,
+    
+    // cpptools
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
+    "C_Cpp.intelliSenseEngineFallback": "enabled",
+    "C_Cpp.formatting": "disabled",
+    "C_Cpp.clang_format_fallbackStyle": "none",
+
+    // xmake
+    "xmake.buildLevel": "debug",
+    "xmake.compileCommandsDirectory": "",
+
+    // Misc
+    "files.autoSave": "afterDelay",
+    "telemetry.telemetryLevel": "off",
+    "settingsSync.keybindingsPerPlatform": false,
+    "git.openRepositoryInParentFolders": "never",
+    "clangd.path": "c:\\Users\\Onur\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\19.1.2\\clangd_19.1.2\\bin\\clangd.exe",
+    "accessibility.signals.terminalBell": {
+        "sound": "on"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "lua": false
+    },
+    "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
+    "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
+    "workbench.activityBar.location": "top",
+    "C_mantic.caseStyle": "PascalCase",
+    "C_mantic.cpp.bracedInitialization": true,
+    "C_mantic.cpp.curlyBraceFormat.namespace": "New line",
+    "C_mantic.headerGuard.style": "Add #pragma once",
+    "C_mantic.alertLevel": "Warning",
+    "C_mantic.codeActions.enableAddDeclaration": false,
+    "C_mantic.codeActions.enableUpdateFunctionSignature": false,
+    "C_mantic.codeActions.enableMoveDefinition": false,
+    "C_mantic.contextMenu.switchHeaderSource": false,
+    "C_mantic.cpp.curlyBraceFormat.function": "New line",
+    "xmake.debugConfigType": "codelldb",
+    
+}

@@ -1,0 +1,6 @@
+<application>
+  <component name="NotificationConfiguration" systemNotifications="false">
+    <notification groupId="IDE-errors" displayType="NONE" shouldLog="false" />
+    <notification groupId="LaunchSettings notifications" playSound="true" />
+  </component>
+</application>

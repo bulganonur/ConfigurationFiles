@@ -1,0 +1,135 @@
+<keymap version="1" name="vs22dub" parent="Visual Studio 2022">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
+  <action id="Arrangement.Alias.Rule.Add">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="Arrangement.Rule.Add">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="BuildCurrentProject" />
+  <action id="BuildSolutionAction" />
+  <action id="BuildStartupProject">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="BuildWholeSolutionAction">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt divide" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+  </action>
+  <action id="Console.TableResult.DeleteRows">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="ContextHelp">
+    <keyboard-shortcut first-keystroke="shift f1" />
+  </action>
+  <action id="DatabaseView.Tools">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="EditPropertiesAction">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+  </action>
+  <action id="EditorChooseLookupItemDot" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="EditorMatchBrace" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="EditorSelectSingleLineAtCaret">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="FileChooser.TogglePathBar" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f8" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="Print" />
+  <action id="ProblemsView.QuickFixes">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+  </action>
+  <action id="ReSharperGotoContainingDeclaration" />
+  <action id="ReSharperGotoNextErrorInSolution">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="ReSharperGotoPrevErrorInSolution">
+    <keyboard-shortcut first-keystroke="shift f8" />
+  </action>
+  <action id="RecentLocations" />
+  <action id="RiderNuGetContextPopupAction">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+  </action>
+  <action id="RiderProblemsViewToolsetContextPopupAction">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+  </action>
+  <action id="RiderUnitTestRunSolutionTwAction" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="alt f5" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="ServiceView.AddService">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="SetShortcutAction">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
+  <action id="Terminal.ClearBuffer" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f11" second-keystroke="f11" />
+  </action>
+  <action id="Uml.NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+</keymap>

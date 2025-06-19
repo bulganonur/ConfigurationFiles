@@ -1,0 +1,15 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="C:\Users\Onur\source\repos\Aura" value="true" />
+        <entry key="C:\Users\Onur\source\repos\Aura\.idea\.idea.Aura.dir" value="true" />
+        <entry key="C:\Users\Onur\source\repos\Aura\Source\Aura\Private\Character" value="true" />
+        <entry key="C:\Users\Onur\source\repos\Demo" value="true" />
+        <entry key="C:\Users\Onur\source\repos\Demo\.idea\.idea.Demo" value="true" />
+        <entry key="C:\Users\Onur\source\repos\OBDemo" value="true" />
+        <entry key="C:\Users\Onur\source\repos\OBDemo\.idea\.idea.OBDemo.dir" value="true" />
+      </map>
+    </option>
+  </component>
+</application>
