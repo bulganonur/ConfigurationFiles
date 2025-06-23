@@ -20,6 +20,14 @@ return {
           ['\\'] = 'close_window',
         },
       },
+      filtered_items = {
+        visible = true,
+        never_show = {
+          '.git',
+          '.github',
+          '.cache',
+        },
+      },
     },
   },
 }

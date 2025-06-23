@@ -29,21 +29,53 @@ return {
         -- You can put your default mappings / updates / etc. in here
         --  All the info you're looking for is in `:help telescope.setup()`
         --
-        -- defaults = {
-        --   mappings = {
-        --     i = { ['<c-enter>'] = 'to_fuzzy_refine' },
-        --   },
-        -- },
-        -- pickers = {}
-        extensions = {
+        defaults = {
+          sorting_strategy = 'ascending',
+          layout_strategy = 'vertical',
+          layout_config = {
+            vertical = {
+              width = 0.75,
+              height = 0.99,
+              prompt_position = 'bottom',
+              preview_cutoff = 20,
+              preview_height = 0.66,
+            },
+          },
+          --   mappings = {
+          --     i = { ['<c-enter>'] = 'to_fuzzy_refine' },
+          --   },
+        },
+        pickers = {
+          find_files = {
+            theme = 'dropdown',
+            previewer = false,
+            layout_config = {
+              center = {
+                width = 0.50,
+                height = 0.75,
+              },
+            },
+          },
+          buffers = {
+            theme = 'dropdown',
+            previewer = false,
+            layout_config = {
+              center = {
+                width = 0.33,
+                height = 0.50,
+              },
+            },
+          },
+        },
+      }
+      extensions =
+        {
           ['ui-select'] = {
             require('telescope.themes').get_dropdown(),
           },
         },
-      }
-
-      -- Enable Telescope extensions if they are installed
-      pcall(require('telescope').load_extension, 'fzf')
+        -- Enable Telescope extensions if they are installed
+        pcall(require('telescope').load_extension, 'fzf')
       pcall(require('telescope').load_extension, 'ui-select')
 
       -- See `:help telescope.builtin`
@@ -57,7 +89,7 @@ return {
       vim.keymap.set('n', '<leader>sd', builtin.diagnostics, { desc = '[S]earch [D]iagnostics' })
       vim.keymap.set('n', '<leader>sr', builtin.resume, { desc = '[S]earch [R]esume' })
       vim.keymap.set('n', '<leader>s.', builtin.oldfiles, { desc = '[S]earch Recent Files ("." for repeat)' })
-      vim.keymap.set('n', '<leader><leader>', builtin.buffers, { desc = '[ ] Find existing buffers' })
+      vim.keymap.set('n', '<F1><F1>', builtin.buffers, { desc = '[ ] Find existing buffers' })
 
       -- Slightly advanced example of overriding default behavior and theme
       vim.keymap.set('n', '<leader>/', function()
