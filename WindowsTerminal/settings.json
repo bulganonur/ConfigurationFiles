@@ -1,0 +1,264 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 4
+            },
+            "id": "User.newTab.89E6CA61"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 2
+            },
+            "id": "User.newTab.CCE909E3"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "toggleFocusMode",
+            "id": "User.toggleFocusMode"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 0
+            },
+            "id": "User.newTab.7975BEED"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 5
+            },
+            "id": "User.newTab.663EF760"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 3
+            },
+            "id": "User.newTab.F4C304FB"
+        }
+    ],
+    "alwaysShowTabs": true,
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{7e19074e-2d99-4f0a-920b-0cf6203a0dc8}",
+    "initialCols": 134,
+    "initialRows": 38,
+    "keybindings": 
+    [
+        {
+            "id": "User.newTab.663EF760",
+            "keys": "ctrl+shift+1"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.newTab.CCE909E3",
+            "keys": "ctrl+shift+6"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.newTab.7975BEED",
+            "keys": "ctrl+shift+4"
+        },
+        {
+            "id": "User.newTab.89E6CA61",
+            "keys": "ctrl+shift+5"
+        },
+        {
+            "id": "User.newTab.F4C304FB",
+            "keys": "ctrl+shift+3"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.toggleFocusMode",
+            "keys": "ctrl+f11"
+        },
+        {
+            "id": null,
+            "keys": "alt+enter"
+        }
+    ],
+    "launchMode": "focus",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "adjustIndistinguishableColors": "always",
+            "backgroundImage": null,
+            "backgroundImageAlignment": "center",
+            "backgroundImageOpacity": 0.5,
+            "backgroundImageStretchMode": "fill",
+            "colorScheme": "IBM 5153",
+            "cursorHeight": 25,
+            "cursorShape": "filledBox",
+            "elevate": false,
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "builtinGlyphs": true,
+                "face": "VictorMono Nerd Font Mono",
+                "features": 
+                {
+                    "calt": 0,
+                    "liga": 0
+                },
+                "size": 12,
+                "weight": "medium"
+            },
+            "intenseTextStyle": "all",
+            "opacity": 0,
+            "padding": "0",
+            "scrollbarState": "hidden",
+            "startingDirectory": "C:\\Users\\Onur\\source\\repos",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "elevate": false,
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "shell"
+            },
+            {
+                "antialiasingMode": "cleartype",
+                "colorScheme": 
+                {
+                    "light": "One Half Dark"
+                },
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "elevate": true,
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "cmdAdmin"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "elevate": false,
+                "guid": "{dd0841e6-f1c6-5109-b4c3-c38f0ff9d102}",
+                "hidden": false,
+                "name": "devcmd",
+                "source": "Windows.Terminal.VisualStudio",
+                "startingDirectory": "%USERPROFILE%\\source\\repos"
+            },
+            {
+                "guid": "{771f7ac3-da87-5a2e-8e9d-1b785e694196}",
+                "hidden": false,
+                "name": "devshell",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+                "guid": "{1aeb245f-d358-43b6-83a7-8650e14e8501}",
+                "hidden": false,
+                "icon": null,
+                "name": "bash",
+                "startingDirectory": "C:\\Users\\Onur\\source\\repos"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "pwsh",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "commandline": "pwsh.exe -NoExit -Command \"&{Import-Module \"\"\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll\"\"\"; Enter-VsDevShell d7c51664 -SkipAutomaticLocation -DevCmdArguments \"\"\"-arch=x64 -host_arch=x64\"\"\"}\"",
+                "guid": "{7e19074e-2d99-4f0a-920b-0cf6203a0dc8}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "devpwsh"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": false
+}
