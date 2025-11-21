@@ -22,6 +22,10 @@
         <value type="int" value="6"/>
         <value type="int" value="2"/>
         <value type="int" value="9"/>
+        <value type="int" value="13"/>
+        <value type="int" value="11"/>
+        <value type="int" value="16"/>
+        <value type="int" value="15"/>
       </property>
       <property name="mode" type="uint" value="0"/>
       <property name="nrows" type="uint" value="1"/>
@@ -51,7 +55,13 @@
         <value type="double" value="0"/>
       </property>
       <property name="plugin-ids" type="array">
+        <value type="int" value="18"/>
+        <value type="int" value="3"/>
+        <value type="int" value="22"/>
+        <value type="int" value="14"/>
+        <value type="int" value="21"/>
         <value type="int" value="7"/>
+        <value type="int" value="24"/>
       </property>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="length" type="double" value="1"/>
@@ -107,5 +117,30 @@
     <property name="plugin-12" type="string" value="separator"/>
     <property name="plugin-2" type="string" value="windowmenu"/>
     <property name="plugin-9" type="string" value="separator"/>
+    <property name="plugin-11" type="string" value="separator"/>
+    <property name="plugin-13" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="firefox;spotify"/>
+    </property>
+    <property name="plugin-15" type="string" value="separator"/>
+    <property name="plugin-3" type="string" value="systray">
+      <property name="known-items" type="array">
+        <value type="string" value="YM7XxWNlqc"/>
+        <value type="string" value="yy7EDTWRFt"/>
+        <value type="string" value="EfMK5Z4foi"/>
+        <value type="string" value="Yhnz1vKF6m"/>
+        <value type="string" value="boFuSyve42"/>
+        <value type="string" value="YPlvrxKftX"/>
+        <value type="string" value="6rovYczJGn"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="corectrl"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="separator"/>
+    <property name="plugin-21" type="string" value="separator"/>
+    <property name="plugin-22" type="string" value="separator"/>
+    <property name="plugin-24" type="string" value="separator"/>
+    <property name="plugin-14" type="string" value="power-manager-plugin"/>
+    <property name="plugin-16" type="string" value="notification-plugin"/>
   </property>
 </channel>
