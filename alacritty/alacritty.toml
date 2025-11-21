@@ -1,9 +1,9 @@
 [font]
-size = 13.0
+size = 15.0
 
 [font.normal]
 family = "VictorMonoNerdFontMono"
 style = "Medium"
 
 [terminal]
-shell = { program = "/bin/bash" }
+shell = { program = "/bin/fish" }

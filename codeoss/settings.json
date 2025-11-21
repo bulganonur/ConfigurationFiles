@@ -1,0 +1,127 @@
+{
+    // Terminal
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontFamily": "VictorMono Nerd Font Mono",
+    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    
+    // Editor Fonts
+    "editor.fontFamily": "VictorMono Nerd Font Mono",
+    "editor.fontSize": 16,
+    "window.zoomLevel": 1.5,
+    "editor.fontLigatures": false,
+    "editor.fontVariations": false,
+    
+    // Editor Scrollbar
+    "editor.scrollbar.verticalScrollbarSize": 11,
+    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight": true,
+    "editor.minimap.enabled": false,
+    
+    // Editor Misc
+    "editor.semanticHighlighting.enabled": "configuredByTheme",
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.lineNumbers": "relative",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorWidth": 3,
+    "editor.inlayHints.enabled": "off",
+    "editor.rulers": [
+        120
+    ],
+    "window.autoDetectHighContrast": false,
+    "window.menuBarVisibility": "compact",
+    "window.customTitleBarVisibility": "windowed",
+    
+    // Search
+    "search.actionsPosition": "auto",
+    "search.showLineNumbers": true,
+    "search.smartCase": true,
+    "search.mode": "reuseEditor",
+
+    // Workbench
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "workbench.activityBar.location": "top",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    
+    // CMake
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.options.advanced": {
+        "build": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        },
+        "launch": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        },
+        "debug": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        }
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "cmake.generator": "Ninja",
+    "cmake.configureOnOpen": false,
+    "cmake.pinnedCommands": [
+        "cmake.build",
+        "cmake.clean",
+        "cmake.cleanRebuild",
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.automaticReconfigure": false,
+    "cmake.configureOnEdit": false,
+    
+    // cpptools
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
+    "C_Cpp.intelliSenseEngineFallback": "enabled",
+    "C_Cpp.formatting": "disabled",
+    "C_Cpp.clang_format_fallbackStyle": "none",
+
+    // xmake
+    "xmake.buildLevel": "debug",
+    "xmake.compileCommandsDirectory": "",
+    "xmake.debugConfigType": "codelldb",
+
+    // C_Mantic
+    "C_mantic.caseStyle": "PascalCase",
+    "C_mantic.cpp.bracedInitialization": true,
+    "C_mantic.cpp.curlyBraceFormat.namespace": "New line",
+    "C_mantic.headerGuard.style": "Add #pragma once",
+    "C_mantic.alertLevel": "Warning",
+    "C_mantic.codeActions.enableAddDeclaration": false,
+    "C_mantic.codeActions.enableUpdateFunctionSignature": false,
+    "C_mantic.codeActions.enableMoveDefinition": false,
+    "C_mantic.contextMenu.switchHeaderSource": false,
+    "C_mantic.cpp.curlyBraceFormat.function": "New line",
+
+    // Misc
+    "files.autoSave": "afterDelay",
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "telemetry.editStats.enabled": false,
+    "settingsSync.keybindingsPerPlatform": false,
+    "git.openRepositoryInParentFolders": "never",
+    "clangd.path": "/usr/bin/clangd",
+    "accessibility.signals.terminalBell": {
+        "sound": "on"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "lua": false
+    },
+    "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
+    "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
+    
+
+}
