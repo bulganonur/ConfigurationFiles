@@ -19,6 +19,12 @@ vim.keymap.set('n', '<F8>', vim.diagnostic.setloclist, { desc = 'Open diagnostic
 -- or just use <C-\><C-n> to exit terminal mode
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
+-- Move lines up and down
+vim.keymap.set('n', '<A-j>', ':m .+1<CR>==') -- move line up(n)
+vim.keymap.set('n', '<A-k>', ':m .-2<CR>==') -- move line down(n)
+vim.keymap.set('v', '<A-j>', ":m '>+1<CR>gv=gv") -- move line up(v)
+vim.keymap.set('v', '<A-k>', ":m '<-2<CR>gv=gv") -- move line down(v)
+
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
 --
