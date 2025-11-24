@@ -5,10 +5,18 @@ scrolloff = 10
 line-number = "relative"
 cursorline = true
 rulers = [121]
-bufferline = "always"
+# bufferline = "always"
+# end-of-line-diagnostics = "hint"
 color-modes = true
 popup-border = "all"
 indent-heuristic = "simple"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.indent-guides]
+render = true
+skip-levels = 1
 
 [editor.cursor-shape]
 insert = "bar"
@@ -25,3 +33,11 @@ mode.insert = "INSERT"
 mode.select = "SELECT"
 diagnostics = ["warning", "error"]
 workspace-diagnostics = ["warning", "error"]
+
+[keys.normal.space]
+i = ":toggle lsp.display-inlay-hints"
+
+[keys.insert]
+"C-," = "move_char_left"
+"C-." = "move_char_right"
+
