@@ -1,0 +1,29 @@
+[Added Associations]
+application/json=helix.desktop;
+application/x-docbook+xml=helix.desktop;
+application/x-yaml=helix.desktop;
+image/avif=feh.desktop;
+image/bmp=feh.desktop;
+image/heif=feh.desktop;
+image/jpeg=feh.desktop;
+image/png=feh.desktop;
+image/webp=feh.desktop;
+image/x-icns=feh.desktop;
+text/markdown=helix.desktop;
+text/plain=helix.desktop;
+text/x-cmake=helix.desktop;
+
+[Default Applications]
+application/json=helix.desktop;
+application/x-docbook+xml=helix.desktop;
+application/x-yaml=helix.desktop;
+image/avif=feh.desktop;
+image/bmp=feh.desktop;
+image/heif=feh.desktop;
+image/jpeg=feh.desktop;
+image/png=feh.desktop;
+image/webp=feh.desktop;
+image/x-icns=feh.desktop;
+text/markdown=helix.desktop;
+text/plain=helix.desktop;
+text/x-cmake=helix.desktop;

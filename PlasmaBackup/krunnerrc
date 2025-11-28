@@ -1,0 +1,10 @@
+[Plugins]
+baloosearchEnabled=true
+browserhistoryEnabled=false
+browsertabsEnabled=false
+krunner_bookmarksrunnerEnabled=false
+krunner_webshortcutsEnabled=false
+org.kde.activities2Enabled=false
+
+[Plugins][Favorites]
+plugins=krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings
