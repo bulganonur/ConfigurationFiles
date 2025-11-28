@@ -15,6 +15,14 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][1][ConfigDialog]
+DialogHeight=906
+DialogWidth=1071
+
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=file:///home/onur/repos/ConfigurationFiles/wallpapers/vladimir-malyutin-6A_hN1SFjRI-unsplash.jpg
+SlidePaths=/usr/share/wallpapers/
+
 [Containments][2]
 activityId=
 formfactor=2
@@ -39,10 +47,11 @@ customDateFormat=| d MMM yyyy, ddd
 dateDisplayFormat=BesideTime
 dateFormat=custom
 firstDayOfWeek=1
-fontFamily=Adwaita Mono
-fontSize=11
-fontStyleName=Regular
-fontWeight=400
+fontFamily=VictorMono Nerd Font Mono
+fontSize=12
+fontStyleName=Medium
+fontWeight=500
+use24hFormat=2
 
 [Containments][2][Applets][21][Configuration][ConfigDialog]
 DialogHeight=630
@@ -53,8 +62,8 @@ immutability=1
 plugin=org.kde.milou
 
 [Containments][2][Applets][27][Configuration]
-PreloadWeight=70
-popupHeight=413
+PreloadWeight=100
+popupHeight=39
 popupWidth=630
 
 [Containments][2][Applets][27][Configuration][ConfigDialog]
@@ -89,6 +98,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][2][Applets][30][Configuration]
+PreloadWeight=55
 popupHeight=400
 popupWidth=560
 
@@ -97,11 +107,16 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][31][Configuration]
+PreloadWeight=70
 popupHeight=400
 popupWidth=560
 
+[Containments][2][Applets][51]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
 [Containments][2][General]
-AppletOrder=27;21;29;28;30;31
+AppletOrder=27;21;51;29;28;30;31
 
 [Containments][32]
 activityId=
@@ -150,6 +165,9 @@ plugin=org.kde.plasma.clipboard
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][32][Applets][34][Applets][40][Configuration]
+PreloadWeight=60
+
 [Containments][32][Applets][34][Applets][40][Configuration][General]
 migrated=true
 
@@ -185,9 +203,15 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.brightness
 
+[Containments][32][Applets][34][Applets][49][Configuration]
+PreloadWeight=55
+
 [Containments][32][Applets][34][Applets][50]
 immutability=1
 plugin=org.kde.plasma.bluetooth
+
+[Containments][32][Applets][34][Applets][50][Configuration]
+PreloadWeight=75
 
 [Containments][32][Applets][34][ConfigDialog]
 DialogHeight=630

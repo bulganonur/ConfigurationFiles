@@ -2,8 +2,8 @@
 size = 15.0
 
 [font.normal]
-family = "VictorMonoNerdFontMono"
-style = "Medium"
+family = "VictorMono"
+style = "SemiBold"
 
 [terminal]
 shell = { program = "/bin/fish" }

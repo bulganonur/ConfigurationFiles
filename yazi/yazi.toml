@@ -5,5 +5,5 @@ linemode = "size"
 
 [opener]
 edit = [
-	{ run = '${EDITOR:-nvim} "$@"', desc = "$EDITOR", block = true, for = "unix" },
+	{ run = '${EDITOR:-helix} "$@"', desc = "$EDITOR", block = true, for = "unix" },
 ]
