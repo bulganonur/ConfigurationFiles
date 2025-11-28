@@ -2,14 +2,15 @@
     // Terminal
     "terminal.integrated.defaultProfile.linux": "fish",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "terminal.integrated.fontFamily": "VictorMono Nerd Font Mono",
+    "terminal.integrated.fontFamily": "Victor Mono",
     "terminal.integrated.enableVisualBell": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.smoothScrolling": true,
     
     // Editor Fonts
-    "editor.fontFamily": "VictorMono Nerd Font Mono",
-    "editor.fontSize": 16,
+    "editor.fontFamily": "Victor Mono",
+    "editor.fontSize": 13,
     "window.zoomLevel": 1.5,
     "editor.fontLigatures": false,
     "editor.fontVariations": false,
@@ -28,6 +29,10 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorWidth": 3,
     "editor.inlayHints.enabled": "off",
+    "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
+    "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.rulers": [
         120
     ],
@@ -46,7 +51,8 @@
     "workbench.activityBar.location": "top",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "vs-minimal",
-    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.colorTheme": "oliv - Gruvbox Dark Hard Background",
+    "workbench.list.smoothScrolling": true,
     
     // CMake
     "cmake.options.statusBarVisibility": "visible",
@@ -120,8 +126,5 @@
         "scminput": false,
         "lua": false
     },
-    "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
-    "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
     
-
 }

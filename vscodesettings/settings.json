@@ -1,14 +1,17 @@
 {
     // Terminal
+    "terminal.integrated.defaultProfile.linux": "fish",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "terminal.integrated.fontFamily": "Consolas",
+    "terminal.integrated.fontFamily": "Victor Mono",
     "terminal.integrated.enableVisualBell": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.smoothScrolling": true,
     
     // Editor Fonts
-    "editor.fontFamily": "Victor Mono Medium",
+    "editor.fontFamily": "Victor Mono",
     "editor.fontSize": 13,
+    "window.zoomLevel": 1.5,
     "editor.fontLigatures": false,
     "editor.fontVariations": false,
     
@@ -26,12 +29,13 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorWidth": 3,
     "editor.inlayHints.enabled": "off",
+    "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
+    "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.rulers": [
         120
     ],
-    
-    // Window
-    "window.zoomLevel": 1,
     "window.autoDetectHighContrast": false,
     "window.menuBarVisibility": "compact",
     "window.customTitleBarVisibility": "windowed",
@@ -44,9 +48,11 @@
 
     // Workbench
     "workbench.editor.enablePreviewFromQuickOpen": true,
+    "workbench.activityBar.location": "top",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "vs-minimal",
-    "workbench.colorTheme": "Gruvbox Light Medium",
+    "workbench.colorTheme": "oliv - Gruvbox Dark Hard Background",
+    "workbench.list.smoothScrolling": true,
     
     // CMake
     "cmake.options.statusBarVisibility": "visible",
@@ -88,26 +94,9 @@
     // xmake
     "xmake.buildLevel": "debug",
     "xmake.compileCommandsDirectory": "",
+    "xmake.debugConfigType": "codelldb",
 
-    // Misc
-    "files.autoSave": "afterDelay",
-    "telemetry.telemetryLevel": "off",
-    "settingsSync.keybindingsPerPlatform": false,
-    "git.openRepositoryInParentFolders": "never",
-    "clangd.path": "c:\\Users\\Onur\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\19.1.2\\clangd_19.1.2\\bin\\clangd.exe",
-    "accessibility.signals.terminalBell": {
-        "sound": "on"
-    },
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-        "lua": false
-    },
-    "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
-    "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
-    "workbench.activityBar.location": "top",
+    // C_Mantic
     "C_mantic.caseStyle": "PascalCase",
     "C_mantic.cpp.bracedInitialization": true,
     "C_mantic.cpp.curlyBraceFormat.namespace": "New line",
@@ -118,6 +107,24 @@
     "C_mantic.codeActions.enableMoveDefinition": false,
     "C_mantic.contextMenu.switchHeaderSource": false,
     "C_mantic.cpp.curlyBraceFormat.function": "New line",
-    "xmake.debugConfigType": "codelldb",
+
+    // Misc
+    "files.autoSave": "afterDelay",
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "telemetry.editStats.enabled": false,
+    "settingsSync.keybindingsPerPlatform": false,
+    "git.openRepositoryInParentFolders": "never",
+    "clangd.path": "/usr/bin/clangd",
+    "accessibility.signals.terminalBell": {
+        "sound": "on"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "lua": false
+    },
     
 }
