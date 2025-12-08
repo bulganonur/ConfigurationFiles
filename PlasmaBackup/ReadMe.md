@@ -8,6 +8,10 @@
    * `.config/kdeglobals`
    * `.config/kcmfonts` (not found)
 
+* Window Decorations
+   * `.config/breezerc` (or your theme name)
+   * `.config/kwinrc`
+
 * Launch Feedback(cursor)
    * `.config/klaunchrc`
 
