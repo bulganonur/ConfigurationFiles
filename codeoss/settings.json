@@ -51,7 +51,7 @@
     "workbench.activityBar.location": "top",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "vs-minimal",
-    "workbench.colorTheme": "oliv - Gruvbox Dark Hard Background",
+    "workbench.colorTheme": "oliv - Ayu Dark Background",
     "workbench.list.smoothScrolling": true,
     
     // CMake

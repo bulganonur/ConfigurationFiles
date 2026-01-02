@@ -107,7 +107,7 @@
         "when": "inFilesPicker && inQuickOpen"
     },
     {
-        "key": "ctrl+e",
+        "key": "f3",
         "command": "workbench.action.gotoSymbol",
         "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
     },
@@ -136,7 +136,7 @@
         "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
     },
     {
-        "key": "alt+f",
+        "key": "f4",
         "command": "workbench.action.quickOpen"
     },
     {
@@ -144,7 +144,7 @@
         "command": "-workbench.action.quickOpen"
     },
     {
-        "key": "ctrl+f1",
+        "key": "f7",
         "command": "workbench.action.showCommands"
     },
     {
@@ -218,5 +218,287 @@
         "key": "ctrl+p",
         "command": "cursorUp",
         "when": "textInputFocus && !suggestWidgetVisible && !parameterHintsVisible"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.continue",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "f5",
+        "command": "-xmake.onDebug",
+        "when": "debuggersAvailable && xmakeEnabled && debugState == 'inactive'"
+    },
+    {
+        "key": "f5",
+        "command": "-debug.openView",
+        "when": "!debuggersAvailable"
+    },
+    {
+        "key": "f5",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f2",
+        "command": "-editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f5",
+        "command": "debug.renameWatchExpression",
+        "when": "watchExpressionsFocused"
+    },
+    {
+        "key": "f2",
+        "command": "-debug.renameWatchExpression",
+        "when": "watchExpressionsFocused"
+    },
+    {
+        "key": "f5",
+        "command": "debug.setVariable",
+        "when": "variablesFocused"
+    },
+    {
+        "key": "f2",
+        "command": "-debug.setVariable",
+        "when": "variablesFocused"
+    },
+    {
+        "key": "f5",
+        "command": "remote.tunnel.label",
+        "when": "tunnelViewFocus && tunnelType == 'Forwarded' && tunnelViewMultiSelection == 'undefined'"
+    },
+    {
+        "key": "f2",
+        "command": "-remote.tunnel.label",
+        "when": "tunnelViewFocus && tunnelType == 'Forwarded' && tunnelViewMultiSelection == 'undefined'"
+    },
+    {
+        "key": "f5",
+        "command": "renameFile",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "f2",
+        "command": "-renameFile",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.terminal.renameActiveTab",
+        "when": "terminalHasBeenCreated && terminalTabsFocus && terminalTabsSingularSelection || terminalProcessSupported && terminalTabsFocus && terminalTabsSingularSelection"
+    },
+    {
+        "key": "f2",
+        "command": "-workbench.action.terminal.renameActiveTab",
+        "when": "terminalHasBeenCreated && terminalTabsFocus && terminalTabsSingularSelection || terminalProcessSupported && terminalTabsFocus && terminalTabsSingularSelection"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.chat.renameSession",
+        "when": "focusedView == 'workbench.view.chat.sessions.local'"
+    },
+    {
+        "key": "f2",
+        "command": "-workbench.action.chat.renameSession",
+        "when": "focusedView == 'workbench.view.chat.sessions.local'"
+    },
+    {
+        "key": "f2",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "f6",
+        "command": "-workbench.action.debug.pause",
+        "when": "debugState == 'running'"
+    },
+    {
+        "key": "f6",
+        "command": "-workbench.action.focusNextPart"
+    },
+    {
+        "key": "f6",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "f3",
+        "command": "-editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+f6",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+f3",
+        "command": "-editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "f6",
+        "command": "workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "f3",
+        "command": "-workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "f6",
+        "command": "list.find",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "f3",
+        "command": "-list.find",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "f6",
+        "command": "list.find.replInputFocus",
+        "when": "view == 'workbench.panel.repl.view'"
+    },
+    {
+        "key": "f3",
+        "command": "-list.find.replInputFocus",
+        "when": "view == 'workbench.panel.repl.view'"
+    },
+    {
+        "key": "f6",
+        "command": "notebook.findNext.fromWidget",
+        "when": "findWidgetVisible && notebookEditorFocused"
+    },
+    {
+        "key": "f3",
+        "command": "-notebook.findNext.fromWidget",
+        "when": "findWidgetVisible && notebookEditorFocused"
+    },
+    {
+        "key": "shift+f6",
+        "command": "notebook.findPrevious.fromWidget",
+        "when": "findWidgetVisible && notebookEditorFocused"
+    },
+    {
+        "key": "shift+f3",
+        "command": "-notebook.findPrevious.fromWidget",
+        "when": "findWidgetVisible && notebookEditorFocused"
+    },
+    {
+        "key": "shift+f6",
+        "command": "workbench.action.terminal.findPrevious",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "shift+f3",
+        "command": "-workbench.action.terminal.findPrevious",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+f6",
+        "command": "editor.action.nextSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+f3",
+        "command": "-editor.action.nextSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+f6",
+        "command": "editor.action.previousSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+f3",
+        "command": "-editor.action.previousSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "f4",
+        "command": "-references-view.next",
+        "when": "reference-list.hasResult && references-view.canNavigate"
+    },
+    {
+        "key": "shift+f4",
+        "command": "-references-view.prev",
+        "when": "reference-list.hasResult && references-view.canNavigate"
+    },
+    {
+        "key": "f4",
+        "command": "-search.action.focusNextSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "shift+f4",
+        "command": "-search.action.focusPreviousSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "f4",
+        "command": "-goToNextReference",
+        "when": "inReferenceSearchEditor || referenceSearchVisible"
+    },
+    {
+        "key": "shift+f4",
+        "command": "-goToPreviousReference",
+        "when": "inReferenceSearchEditor || referenceSearchVisible"
+    },
+    {
+        "key": "f6",
+        "command": "actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "shift+f7",
+        "command": "-inlineChat.moveToPreviousHunk",
+        "when": "inlineChatHasNotebookInline && inlineChatVisible && activeEditor == 'workbench.editor.notebook' || inlineChatHasProvider && inlineChatVisible && activeEditor != 'workbench.editor.notebook'"
+    },
+    {
+        "key": "f7",
+        "command": "-inlineChat.moveToNextHunk",
+        "when": "inlineChatHasNotebookInline && inlineChatVisible && activeEditor == 'workbench.editor.notebook' || inlineChatHasProvider && inlineChatVisible && activeEditor != 'workbench.editor.notebook'"
+    },
+    {
+        "key": "shift+f7",
+        "command": "-editor.action.wordHighlight.prev",
+        "when": "editorTextFocus && hasWordHighlights"
+    },
+    {
+        "key": "f7",
+        "command": "-editor.action.wordHighlight.next",
+        "when": "editorTextFocus && hasWordHighlights"
+    },
+    {
+        "key": "f7",
+        "command": "-chatEditor.action.showAccessibleDiffView",
+        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isCurrentlyBeingModified"
+    },
+    {
+        "key": "shift+f7",
+        "command": "-editor.action.accessibleDiffViewer.prev",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "f7",
+        "command": "-editor.action.accessibleDiffViewer.next",
+        "when": "isInDiffEditor"
     }
 ]
