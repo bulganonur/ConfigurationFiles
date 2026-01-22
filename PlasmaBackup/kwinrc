@@ -22,11 +22,27 @@ LayoutName=compact
 [Tiling]
 padding=4
 
+[Tiling][3c1d8f19-f370-45f7-9a7d-73a1d95958bf][]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][3c1d8f19-f370-45f7-9a7d-73a1d95958bf][86e72368-528c-4ade-ae73-ab430194f584]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3c1d8f19-f370-45f7-9a7d-73a1d95958bf][a56ddb40-5fd8-499e-8f99-568ac9190558]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][86ed3052-beef-476e-88b9-c7ff1121a19d][]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][86ed3052-beef-476e-88b9-c7ff1121a19d][86e72368-528c-4ade-ae73-ab430194f584]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][86ed3052-beef-476e-88b9-c7ff1121a19d][a56ddb40-5fd8-499e-8f99-568ac9190558]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Xwayland]
 Scale=1
+
+[org.kde.kdecoration2]
+library=org.kde.breeze
+theme=Breeze

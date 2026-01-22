@@ -4,25 +4,6 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=4e024f8f-9e2c-4968-b21a-d930d3d99c56
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][ConfigDialog]
-DialogHeight=906
-DialogWidth=1071
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/onur/repos/ConfigurationFiles/wallpapers/vladimir-malyutin-6A_hN1SFjRI-unsplash.jpg
-SlidePaths=/usr/share/wallpapers/
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -37,7 +18,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][21][Configuration]
-PreloadWeight=60
+PreloadWeight=100
 popupHeight=451
 popupWidth=560
 
@@ -63,7 +44,7 @@ plugin=org.kde.milou
 
 [Containments][2][Applets][27][Configuration]
 PreloadWeight=100
-popupHeight=39
+popupHeight=447
 popupWidth=630
 
 [Containments][2][Applets][27][Configuration][ConfigDialog]
@@ -98,16 +79,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][2][Applets][30][Configuration]
-PreloadWeight=55
-popupHeight=400
-popupWidth=560
-
-[Containments][2][Applets][31]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
-
-[Containments][2][Applets][31][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 popupHeight=400
 popupWidth=560
 
@@ -115,8 +87,36 @@ popupWidth=560
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
+[Containments][2][Applets][56]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][2][Applets][56][Configuration]
+PreloadWeight=100
+popupHeight=567
+popupWidth=588
+
+[Containments][2][Applets][56][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][2][Applets][56][Configuration][General]
+color=white
+cursorPosition=404
+fontSize=11
+noteId=30b7e674-3ea2-42c9-b959-9691b7ff50
+scrollX=25
+scrollY=1782
+
+[Containments][2][Applets][56][Shortcuts]
+global=Meta+N
+
+[Containments][2][Applets][59]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
 [Containments][2][General]
-AppletOrder=27;21;51;29;28;30;31
+AppletOrder=27;21;51;29;28;30;59;56
 
 [Containments][32]
 activityId=
@@ -161,12 +161,15 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][32][Applets][34][Applets][39][Configuration]
+PreloadWeight=60
+
 [Containments][32][Applets][34][Applets][40]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][32][Applets][34][Applets][40][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][32][Applets][34][Applets][40][Configuration][General]
 migrated=true
@@ -178,6 +181,9 @@ plugin=org.kde.plasma.keyboardindicator
 [Containments][32][Applets][34][Applets][42]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
+
+[Containments][32][Applets][34][Applets][42][Configuration]
+PreloadWeight=100
 
 [Containments][32][Applets][34][Applets][43][Configuration]
 PreloadWeight=42
@@ -191,6 +197,9 @@ PreloadWeight=42
 [Containments][32][Applets][34][Applets][46]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+
+[Containments][32][Applets][34][Applets][46][Configuration]
+PreloadWeight=60
 
 [Containments][32][Applets][34][Applets][47][Configuration]
 PreloadWeight=42
@@ -211,7 +220,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][32][Applets][34][Applets][50][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][32][Applets][34][ConfigDialog]
 DialogHeight=630
@@ -223,6 +232,26 @@ knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.vault,org.kde.plasma
 
 [Containments][32][General]
 AppletOrder=34;33
+
+[Containments][52]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=2f7e94f7-47ed-4277-b6da-478502770d9f
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][52][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][52][Wallpaper][org.kde.image][General]
+FillMode=3
+Image=file:///home/onur/repos/ConfigurationFiles/wallpapers/vladimir-malyutin-6A_hN1SFjRI-unsplash.jpg
+SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=
