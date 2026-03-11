@@ -1,26 +1,19 @@
 BasedOnStyle: LLVM
+
 BreakBeforeBraces: Allman
-
 ColumnLimit: 120
-
 IndentWidth: 4
-ContinuationIndentWidth: 4
 TabWidth: 4
 UseTab: Never
 
 PointerAlignment: Left
 
-IndentAccessModifiers: false
 AccessModifierOffset: -4
 
 AlignAfterOpenBracket: AlwaysBreak
 
-AllowShortFunctionsOnASingleLine: InlineOnly
-AllowShortLambdasOnASingleLine: Empty
-AllowShortIfStatementsOnASingleLine: Never
-AllowShortLoopsOnASingleLine: false
-AllowShortNamespacesOnASingleLine: false
-AllowShortCaseExpressionOnASingleLine: true
+#AllowShortFunctionsOnASingleLine: InlineOnly
+#AllowShortLambdasOnASingleLine: Empty
 AllowShortCaseLabelsOnASingleLine: true
 
 AllowAllArgumentsOnNextLine: false
@@ -30,7 +23,6 @@ BinPackArguments: false
 
 IndentCaseLabels: true
 
-BreakConstructorInitializers: BeforeColon
 PackConstructorInitializers: CurrentLine
 
 AlignTrailingComments: Leave
