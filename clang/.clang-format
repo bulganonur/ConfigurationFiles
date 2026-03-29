@@ -12,7 +12,7 @@ AccessModifierOffset: -4
 
 AlignAfterOpenBracket: AlwaysBreak
 
-#AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortFunctionsOnASingleLine: InlineOnly
 #AllowShortLambdasOnASingleLine: Empty
 AllowShortCaseLabelsOnASingleLine: true
 
