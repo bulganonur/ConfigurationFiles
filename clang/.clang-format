@@ -1,3 +1,5 @@
+#https://clang-format-configurator.site/
+
 BasedOnStyle: LLVM
 
 BreakBeforeBraces: Allman
