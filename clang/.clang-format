@@ -23,6 +23,9 @@ AllowAllParametersOfDeclarationOnNextLine: false
 BinPackParameters: OnePerLine
 BinPackArguments: false
 
+BreakAfterReturnType: Automatic
+PenaltyReturnTypeOnItsOwnLine: 100
+
 IndentCaseLabels: true
 
 PackConstructorInitializers: CurrentLine
