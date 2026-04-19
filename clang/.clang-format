@@ -24,7 +24,8 @@ BinPackParameters: OnePerLine
 BinPackArguments: false
 
 BreakAfterReturnType: Automatic
-PenaltyReturnTypeOnItsOwnLine: 100
+AlwaysBreakAfterDefinitionReturnType: None
+PenaltyReturnTypeOnItsOwnLine: 1000
 
 IndentCaseLabels: true
 
