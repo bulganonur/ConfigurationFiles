@@ -27,6 +27,8 @@ BreakAfterReturnType: Automatic
 AlwaysBreakAfterDefinitionReturnType: None
 PenaltyReturnTypeOnItsOwnLine: 1000
 
+BreakTemplateDeclarations: Yes
+
 IndentCaseLabels: true
 
 PackConstructorInitializers: CurrentLine
