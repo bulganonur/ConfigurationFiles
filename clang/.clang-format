@@ -31,6 +31,6 @@ BreakTemplateDeclarations: Yes
 
 IndentCaseLabels: true
 
-PackConstructorInitializers: CurrentLine
+PackConstructorInitializers: Never
 
 AlignTrailingComments: Leave
