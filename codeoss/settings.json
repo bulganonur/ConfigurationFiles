@@ -3,15 +3,12 @@
     "terminal.integrated.defaultProfile.linux": "fish",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.fontFamily": "Victor Mono",
-    "terminal.integrated.enableVisualBell": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.smoothScrolling": true,
     
     // Editor Fonts
-    "editor.fontFamily": "Victor Mono",
-    "editor.fontSize": 13,
-    "window.zoomLevel": 1.5,
+    "editor.fontFamily": "Victor Mono SemiBold",
     "editor.fontLigatures": false,
     "editor.fontVariations": false,
     
@@ -39,20 +36,18 @@
     "window.autoDetectHighContrast": false,
     "window.menuBarVisibility": "compact",
     "window.customTitleBarVisibility": "windowed",
+    "window.zoomLevel": 1.5,
     
     // Search
     "search.actionsPosition": "auto",
     "search.showLineNumbers": true,
     "search.smartCase": true,
     "search.mode": "reuseEditor",
-
-    // Workbench
-    "workbench.editor.enablePreviewFromQuickOpen": true,
     "workbench.activityBar.location": "top",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "vs-minimal",
-    "workbench.colorTheme": "oliv - Ayu Dark Background",
     "workbench.list.smoothScrolling": true,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
     
     // CMake
     "cmake.options.statusBarVisibility": "visible",
@@ -116,9 +111,6 @@
     "settingsSync.keybindingsPerPlatform": false,
     "git.openRepositoryInParentFolders": "never",
     "clangd.path": "/usr/bin/clangd",
-    "accessibility.signals.terminalBell": {
-        "sound": "on"
-    },
     "github.copilot.enable": {
         "*": false,
         "plaintext": false,
@@ -126,5 +118,8 @@
         "scminput": false,
         "lua": false
     },
-    
+    "diffEditor.ignoreTrimWhitespace": false,
+    "claudeCode.preferredLocation": "panel",
+    "chat.viewSessions.orientation": "stacked",
+    "workbench.colorTheme": "oliv - Ayu Dark Background",
 }
