@@ -1,17 +1,13 @@
 {
     // Terminal
-    "terminal.integrated.defaultProfile.linux": "fish",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "terminal.integrated.fontFamily": "Victor Mono",
-    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.fontFamily": "Consolas",
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
     
     // Editor Fonts
-    "editor.fontFamily": "Victor Mono",
-    "editor.fontSize": 13,
-    "window.zoomLevel": 1.5,
+    "editor.fontFamily": "Victor Mono SemiBold",
     "editor.fontLigatures": false,
     "editor.fontVariations": false,
     
@@ -36,6 +32,9 @@
     "editor.rulers": [
         120
     ],
+    
+    // Window
+    "window.zoomLevel": 1,
     "window.autoDetectHighContrast": false,
     "window.menuBarVisibility": "compact",
     "window.customTitleBarVisibility": "windowed",
@@ -48,11 +47,9 @@
 
     // Workbench
     "workbench.editor.enablePreviewFromQuickOpen": true,
-    "workbench.activityBar.location": "top",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "vs-minimal",
-    "workbench.colorTheme": "oliv - Ayu Dark Background",
-    "workbench.list.smoothScrolling": true,
+    "workbench.colorTheme": "oliv - Gruvbox Dark Hard Background",
     
     // CMake
     "cmake.options.statusBarVisibility": "visible",
@@ -83,39 +80,28 @@
     ],
     "cmake.automaticReconfigure": false,
     "cmake.configureOnEdit": false,
-    
+
     // cpptools
     "C_Cpp.intelliSenseEngine": "disabled",
-    "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
     "C_Cpp.intelliSenseEngineFallback": "enabled",
     "C_Cpp.formatting": "disabled",
     "C_Cpp.clang_format_fallbackStyle": "none",
+    "C_Cpp.intelliSenseUpdateDelay": 500,
+
+    // clangd
+    "clangd.path": "c:\\Users\\Onur\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\19.1.2\\clangd_19.1.2\\bin\\clangd.exe",
+    "clangd.arguments": ["--enable-config"],
 
     // xmake
     "xmake.buildLevel": "debug",
     "xmake.compileCommandsDirectory": "",
-    "xmake.debugConfigType": "codelldb",
-
-    // C_Mantic
-    "C_mantic.caseStyle": "PascalCase",
-    "C_mantic.cpp.bracedInitialization": true,
-    "C_mantic.cpp.curlyBraceFormat.namespace": "New line",
-    "C_mantic.headerGuard.style": "Add #pragma once",
-    "C_mantic.alertLevel": "Warning",
-    "C_mantic.codeActions.enableAddDeclaration": false,
-    "C_mantic.codeActions.enableUpdateFunctionSignature": false,
-    "C_mantic.codeActions.enableMoveDefinition": false,
-    "C_mantic.contextMenu.switchHeaderSource": false,
-    "C_mantic.cpp.curlyBraceFormat.function": "New line",
 
     // Misc
     "files.autoSave": "afterDelay",
     "telemetry.feedback.enabled": false,
     "telemetry.telemetryLevel": "off",
-    "telemetry.editStats.enabled": false,
     "settingsSync.keybindingsPerPlatform": false,
     "git.openRepositoryInParentFolders": "never",
-    "clangd.path": "/usr/bin/clangd",
     "accessibility.signals.terminalBell": {
         "sound": "on"
     },
@@ -126,5 +112,18 @@
         "scminput": false,
         "lua": false
     },
+    "workbench.activityBar.location": "top",
+
+    // c_mantic
+    "C_mantic.caseStyle": "PascalCase",
+    "C_mantic.cpp.bracedInitialization": true,
+    "C_mantic.cpp.curlyBraceFormat.namespace": "New line",
+    "C_mantic.headerGuard.style": "Add #pragma once",
+    "C_mantic.alertLevel": "Warning",
+    "C_mantic.codeActions.enableAddDeclaration": false,
+    "C_mantic.codeActions.enableUpdateFunctionSignature": false,
+    "C_mantic.codeActions.enableMoveDefinition": false,
+    "C_mantic.contextMenu.switchHeaderSource": false,
+    "C_mantic.cpp.curlyBraceFormat.function": "New line",
     
 }
