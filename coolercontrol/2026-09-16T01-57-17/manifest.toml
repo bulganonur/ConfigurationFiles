@@ -1,0 +1,6 @@
+format_version = 1
+daemon_version = "5.0.0"
+created = "2026-09-16T01:57:17.801363291+03:00"
+hostname = "archlinux"
+includes_secrets = false
+files = ["config.toml", "config-ui.json", "alerts.json", "modes.json", "calibrations.json", "overrides.toml"]

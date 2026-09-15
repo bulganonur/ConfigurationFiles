@@ -19,6 +19,7 @@ f42333b13a2853dfb8e516c576470622e74a4659bfffe7ca229f68733beae979 = "acpitz"
 69c3f711c4983ed94b0b96d3394eb4bb5ac193bf959ec740c539005e347fe5e0 = "nvme"
 19e098e312e1b1b39163a343ea22b6ea17f18ec1a803ffe0ce44f5bacd6076ee = "Custom Sensors"
 7442ece48a26c31e110bbb1d21577e4a7b4613be5cce8adee1fe2d0832d11696 = "amdgpu"
+00a4da18625f56275c89e2fcd25a83c08c5ad3326452fa7e252fcc8a89c92493 = "nct6798"
 
 
 # Legacy690 Option for devices
@@ -154,8 +155,8 @@ name = "Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz"
 disable = false
 
 [settings.75131bfe293d36872055490af775433dc31528061d22489c5737368afaa3913e.channel_settings]
-"CPU Freq Max" = { label = "CPU Freq Max", disabled = true }
 "CPU Freq Min" = { label = "CPU Freq Min", disabled = true }
+"CPU Freq Max" = { label = "CPU Freq Max", disabled = true }
 "CPU Freq Avg" = { label = "CPU Freq Avg", disabled = true }
 
 [settings.7442ece48a26c31e110bbb1d21577e4a7b4613be5cce8adee1fe2d0832d11696]
@@ -163,8 +164,8 @@ name = "AMD Radeon RX 5600 XT"
 disable = false
 
 [settings.7442ece48a26c31e110bbb1d21577e4a7b4613be5cce8adee1fe2d0832d11696.channel_settings]
-freq1 = { label = "GPU Freq Sclk", disabled = true }
 freq2 = { label = "GPU Freq Mclk", disabled = true }
+freq1 = { label = "GPU Freq Sclk", disabled = true }
 
 [settings.f42333b13a2853dfb8e516c576470622e74a4659bfffe7ca229f68733beae979]
 name = "acpitz"
@@ -177,6 +178,27 @@ name = "SanDisk Ultra 3D NVMe"
 disable = true
 
 [settings.69c3f711c4983ed94b0b96d3394eb4bb5ac193bf959ec740c539005e347fe5e0.channel_settings]
+
+[settings.00a4da18625f56275c89e2fcd25a83c08c5ad3326452fa7e252fcc8a89c92493]
+name = "nct6798"
+disable = false
+
+[settings.00a4da18625f56275c89e2fcd25a83c08c5ad3326452fa7e252fcc8a89c92493.channel_settings]
+fan1 = { label = "Fan1", disabled = true }
+temp12 = { label = "Pch Mch Temp", disabled = true }
+temp11 = { label = "Pch Cpu Temp", disabled = true }
+temp1 = { label = "Systin", disabled = true }
+fan6 = { label = "Fan6", disabled = true }
+temp4 = { label = "Auxtin1", disabled = true }
+temp9 = { label = "Pch Chip Cpu Max Temp", disabled = true }
+temp5 = { label = "Auxtin2", disabled = true }
+temp7 = { label = "Auxtin4", disabled = true }
+temp10 = { label = "Pch Chip Temp", disabled = true }
+temp3 = { label = "Auxtin0", disabled = true }
+temp6 = { label = "Auxtin3", disabled = true }
+fan7 = { label = "Fan7", disabled = true }
+temp8 = { label = "Peci Agent 0 Calibration", disabled = true }
+temp2 = { label = "Cputin", disabled = true }
 
 # CoolerControl Device settings Example:
 # [settings.4b9cd1bc5fb2921253e6b7dd5b1b011086ea529d915a86b3560c236084452807]
