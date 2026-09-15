@@ -1,3 +1,4 @@
 [Common]
+OutlineEnabled=false
 OutlineIntensity=OutlineOff
 ShadowSize=ShadowMedium

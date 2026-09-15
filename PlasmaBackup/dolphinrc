@@ -1,3 +1,8 @@
+[ExtractDialog]
+1920x1080 screen: Height=630
+1920x1080 screen: Width=1280
+DirHistory[$e]=$HOME/Downloads/
+
 [General]
 LockPanels=false
 Version=202

@@ -18,7 +18,6 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][21][Configuration]
-PreloadWeight=100
 popupHeight=451
 popupWidth=560
 
@@ -43,8 +42,7 @@ immutability=1
 plugin=org.kde.milou
 
 [Containments][2][Applets][27][Configuration]
-PreloadWeight=100
-popupHeight=447
+popupHeight=651
 popupWidth=630
 
 [Containments][2][Applets][27][Configuration][ConfigDialog]
@@ -59,8 +57,8 @@ immutability=1
 plugin=org.kde.plasma.windowlist
 
 [Containments][2][Applets][28][Configuration]
-popupHeight=400
-popupWidth=560
+popupHeight=35
+popupWidth=163
 
 [Containments][2][Applets][28][Configuration][ConfigDialog]
 DialogHeight=630
@@ -74,12 +72,14 @@ showText=false
 immutability=1
 plugin=org.kde.plasma.lock_logout
 
+[Containments][2][Applets][29][Configuration][General]
+actionsOrder=lockScreen,switchUser,requestShutDown,requestReboot,requestLogout,requestLogoutScreen,suspendToRam,suspendToDisk
+
 [Containments][2][Applets][30]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][2][Applets][30][Configuration]
-PreloadWeight=100
 popupHeight=400
 popupWidth=560
 
@@ -92,9 +92,8 @@ immutability=1
 plugin=org.kde.plasma.notes
 
 [Containments][2][Applets][56][Configuration]
-PreloadWeight=100
 popupHeight=567
-popupWidth=588
+popupWidth=544
 
 [Containments][2][Applets][56][Configuration][ConfigDialog]
 DialogHeight=630
@@ -102,11 +101,9 @@ DialogWidth=810
 
 [Containments][2][Applets][56][Configuration][General]
 color=white
-cursorPosition=404
-fontSize=11
+cursorPosition=0
+fontSize=13
 noteId=30b7e674-3ea2-42c9-b959-9691b7ff50
-scrollX=25
-scrollY=1782
 
 [Containments][2][Applets][56][Shortcuts]
 global=Meta+N
@@ -161,15 +158,9 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][32][Applets][34][Applets][39][Configuration]
-PreloadWeight=60
-
 [Containments][32][Applets][34][Applets][40]
 immutability=1
 plugin=org.kde.plasma.volume
-
-[Containments][32][Applets][34][Applets][40][Configuration]
-PreloadWeight=65
 
 [Containments][32][Applets][34][Applets][40][Configuration][General]
 migrated=true
@@ -181,9 +172,6 @@ plugin=org.kde.plasma.keyboardindicator
 [Containments][32][Applets][34][Applets][42]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
-
-[Containments][32][Applets][34][Applets][42][Configuration]
-PreloadWeight=100
 
 [Containments][32][Applets][34][Applets][43][Configuration]
 PreloadWeight=42
@@ -198,9 +186,6 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][32][Applets][34][Applets][46][Configuration]
-PreloadWeight=60
-
 [Containments][32][Applets][34][Applets][47][Configuration]
 PreloadWeight=42
 
@@ -212,15 +197,9 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.brightness
 
-[Containments][32][Applets][34][Applets][49][Configuration]
-PreloadWeight=55
-
 [Containments][32][Applets][34][Applets][50]
 immutability=1
 plugin=org.kde.plasma.bluetooth
-
-[Containments][32][Applets][34][Applets][50][Configuration]
-PreloadWeight=100
 
 [Containments][32][Applets][34][ConfigDialog]
 DialogHeight=630
@@ -233,7 +212,7 @@ knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.vault,org.kde.plasma
 [Containments][32][General]
 AppletOrder=34;33
 
-[Containments][52]
+[Containments][61]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=2f7e94f7-47ed-4277-b6da-478502770d9f
@@ -244,14 +223,28 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][52][ConfigDialog]
+[Containments][61][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
 
-[Containments][52][Wallpaper][org.kde.image][General]
-FillMode=3
-Image=file:///home/onur/repos/ConfigurationFiles/wallpapers/vladimir-malyutin-6A_hN1SFjRI-unsplash.jpg
+[Containments][61][General]
+changedPositions={}
+lastResolution=1920x1080
+positions={"1920x1080":["1","17"]}
+sortMode=-1
+
+[Containments][61][Wallpaper][org.kde.image][General]
+Blur=true
+Color=0,0,0
+FillMode=1
+Image=file:///home/onur/repos/ConfigurationFiles/wallpapers/adrianna-geo-1rBg5YSi00c-unsplash.jpg
 SlidePaths=/usr/share/wallpapers/
+
+[Containments][61][Wallpaper][org.kde.potd][General]
+FillMode=3
+
+[Containments][61][Wallpaper][org.kde.tiled][General]
+Image=file:///home/onur/repos/ConfigurationFiles/wallpapers/adrianna-geo-1rBg5YSi00c-unsplash.jpg
 
 [ScreenMapping]
 itemsOnDisabledScreens=

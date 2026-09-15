@@ -1,7 +1,7 @@
 [Added Associations]
-application/json=helix.desktop;
-application/x-docbook+xml=helix.desktop;
-application/x-yaml=helix.desktop;
+application/json=Helix.desktop;helix.desktop;
+application/x-docbook+xml=Helix.desktop;helix.desktop;
+application/x-yaml=Helix.desktop;helix.desktop;
 image/avif=feh.desktop;
 image/bmp=feh.desktop;
 image/heif=feh.desktop;
@@ -9,14 +9,14 @@ image/jpeg=feh.desktop;
 image/png=feh.desktop;
 image/webp=feh.desktop;
 image/x-icns=feh.desktop;
-text/markdown=helix.desktop;
-text/plain=helix.desktop;
-text/x-cmake=helix.desktop;
+text/markdown=Helix.desktop;helix.desktop;
+text/plain=Helix.desktop;helix.desktop;
+text/x-cmake=Helix.desktop;helix.desktop;
 
 [Default Applications]
-application/json=helix.desktop;
-application/x-docbook+xml=helix.desktop;
-application/x-yaml=helix.desktop;
+application/json=Helix.desktop;
+application/x-docbook+xml=Helix.desktop;
+application/x-yaml=Helix.desktop;
 image/avif=feh.desktop;
 image/bmp=feh.desktop;
 image/heif=feh.desktop;
@@ -24,6 +24,6 @@ image/jpeg=feh.desktop;
 image/png=feh.desktop;
 image/webp=feh.desktop;
 image/x-icns=feh.desktop;
-text/markdown=helix.desktop;
-text/plain=helix.desktop;
-text/x-cmake=helix.desktop;
+text/markdown=Helix.desktop;
+text/plain=Helix.desktop;
+text/x-cmake=Helix.desktop;
