@@ -40,6 +40,10 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 -- vim.keymap.set("n", "<C-S-j>", "<C-w>J", { desc = "Move window to the lower" })
 -- vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window to the upper" })
 
+-- Goto next/previous tab
+vim.keymap.set('n', '<C-Tab>', ':tabnext<CR>', {silent = true})
+vim.keymap.set('n', '<C-S-Tab>', ':tabprevious<CR>', {silent = true})
+
 -- LSP
 vim.keymap.set('n', '<F2>', vim.lsp.buf.rename, { desc = 'Rename' })
 vim.keymap.set({ 'n', 'x' }, '<A-CR>', vim.lsp.buf.code_action, { desc = 'CodeAction' })
@@ -47,8 +51,8 @@ vim.keymap.set('n', '<S-F12>', require('telescope.builtin').lsp_references, { de
 vim.keymap.set('n', '<F12>', require('telescope.builtin').lsp_definitions, { desc = 'GotoDefinition' })
 vim.keymap.set('n', '<F12>', vim.lsp.buf.declaration, { desc = 'GotoDeclaration' })
 vim.keymap.set('n', '<F12>', require('telescope.builtin').lsp_implementations, { desc = 'GotoImplementation' })
-vim.keymap.set('n', 'gO', require('telescope.builtin').lsp_document_symbols, { desc = 'FindSymbols' })
-vim.keymap.set('n', 'gW', require('telescope.builtin').lsp_dynamic_workspace_symbols, { desc = 'FindSymbolsWorkspace' })
+vim.keymap.set('n', '<F6>', require('telescope.builtin').lsp_document_symbols, { desc = 'FindSymbols' })
+vim.keymap.set('n', '<F5>', require('telescope.builtin').lsp_dynamic_workspace_symbols, { desc = 'FindSymbolsWorkspace' })
 vim.keymap.set('n', 'grt', require('telescope.builtin').lsp_type_definitions, { desc = 'GotoTypeDefinition' })
 vim.keymap.set('n', '<C-i-h>', function()
   vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled)

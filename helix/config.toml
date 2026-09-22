@@ -41,3 +41,6 @@ i = ":toggle lsp.display-inlay-hints"
 "C-," = "move_char_left"
 "C-." = "move_char_right"
 
+[keys.normal]
+"A-k" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before", "flip_selections"]
+"A-j" = ["extend_to_line_bounds", "delete_selection", "paste_after", "select_mode", "goto_line_start", "normal_mode"]
