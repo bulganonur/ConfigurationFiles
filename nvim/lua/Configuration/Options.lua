@@ -6,6 +6,12 @@
 
 --]]
 
+-- Set tab size
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+vim.opt.expandtab = true
+
 -- Set default shell
 -- vim.opt.shell = "pwsh"
 vim.opt.shell = 'fish'
