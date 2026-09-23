@@ -24,7 +24,7 @@ normal = "block"
 select = "underline"
 
 [editor.statusline]
-left = ["mode", "file-name", "spinner"]
+left = ["mode", "spacer", "version-control", "file-modification-indicator", "spinner"]
 center = ["file-name"]
 right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
 separator = "│"
@@ -33,7 +33,6 @@ mode.insert = "INSERT"
 mode.select = "SELECT"
 diagnostics = ["warning", "error"]
 workspace-diagnostics = ["warning", "error"]
-merge-with-commandline = true
 
 [keys.insert]
 "C-," = "move_prev_word_start"
