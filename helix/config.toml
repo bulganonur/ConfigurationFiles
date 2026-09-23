@@ -1,11 +1,11 @@
-theme = "jellybeans"
+theme = "gruvbox_dark_hard"
 
 [editor]
 scrolloff = 10
 line-number = "relative"
 cursorline = true
 rulers = [121]
-# bufferline = "always"
+bufferline = "always"
 # end-of-line-diagnostics = "hint"
 color-modes = true
 popup-border = "all"
@@ -34,13 +34,36 @@ mode.select = "SELECT"
 diagnostics = ["warning", "error"]
 workspace-diagnostics = ["warning", "error"]
 
-[keys.normal.space]
-i = ":toggle lsp.display-inlay-hints"
-
 [keys.insert]
-"C-," = "move_char_left"
-"C-." = "move_char_right"
+"C-," = "move_prev_word_start"
+"C-." = "move_next_word_start"
 
 [keys.normal]
 "A-k" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before", "flip_selections"]
+"A-up" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before", "flip_selections"]
+
 "A-j" = ["extend_to_line_bounds", "delete_selection", "paste_after", "select_mode", "goto_line_start", "normal_mode"]
+"A-down" = ["extend_to_line_bounds", "delete_selection", "paste_after", "select_mode", "goto_line_start", "normal_mode"]
+
+"C-," = "move_prev_word_start"
+"C-." = "move_next_word_start"
+
+"F1" = "global_search"
+"F2" = "rename_symbol"
+"F3" = "search_next"
+"S-F3" = "search_prev"
+"F4" = "file_picker"
+"S-F4" = "buffer_picker"
+"F5" = "workspace_symbol_picker"
+"F6" = "symbol_picker"
+"F8" = "workspace_diagnostics_picker"
+"S-F8" = "diagnostics_picker"
+"F12" = "goto_declaration"
+"S-F12" = "goto_reference"
+"C-tab" = "goto_last_accessed_file"
+"A-ret" = "code_action"
+"C-]" = "jump_forward"
+"C-[" = "jump_backward"
+
+[keys.normal.space]
+"i" = ":toggle lsp.display-inlay-hints"
