@@ -6,7 +6,7 @@ line-number = "relative"
 cursorline = true
 rulers = [121]
 bufferline = "always"
-# end-of-line-diagnostics = "hint"
+#end-of-line-diagnostics = "hint"
 color-modes = true
 popup-border = "all"
 indent-heuristic = "simple"
@@ -15,8 +15,8 @@ indent-heuristic = "simple"
 cursor-line = "warning"
 
 [editor.indent-guides]
-render = true
-skip-levels = 1
+render = false
+#skip-levels = 1
 
 [editor.cursor-shape]
 insert = "bar"
@@ -38,10 +38,31 @@ workspace-diagnostics = ["warning", "error"]
 "C-," = "move_prev_word_start"
 "C-." = "move_next_word_start"
 
+"A-up" = [
+    "normal_mode", 
+    "extend_to_line_bounds", 
+    "delete_selection", 
+    "move_line_up", 
+    "paste_before", 
+    "insert_mode"
+]
+"A-down" = [
+    "normal_mode", 
+    "extend_to_line_bounds", 
+    "delete_selection", 
+    "paste_after", 
+    "insert_mode"
+]
+
+[keys.select]
+"A-k" = ["delete_selection", "move_visual_line_up", "paste_before", "select_mode"]
+"A-up" = ["delete_selection", "move_visual_line_up", "paste_before", "select_mode"]
+"A-j" = ["delete_selection", "move_visual_line_down", "paste_before", "select_mode"]
+"A-down" = ["delete_selection", "move_visual_line_down", "paste_before", "select_mode"]
+
 [keys.normal]
 "A-k" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before", "flip_selections"]
 "A-up" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before", "flip_selections"]
-
 "A-j" = ["extend_to_line_bounds", "delete_selection", "paste_after", "select_mode", "goto_line_start", "normal_mode"]
 "A-down" = ["extend_to_line_bounds", "delete_selection", "paste_after", "select_mode", "goto_line_start", "normal_mode"]
 
@@ -67,3 +88,4 @@ workspace-diagnostics = ["warning", "error"]
 
 [keys.normal.space]
 "i" = ":toggle lsp.display-inlay-hints"
+
